@@ -41,7 +41,7 @@
         //}
 
         //[Theory]
-        //[InlineData("2023-03-29", true)] // Good Friday
+        //[InlineData("2023-04-07", true)] // Good Friday
         //[InlineData("2021-12-31", false)] // Shifted NYD
         //public void IsBusinessDay_Handles_Special_Cases(string date, bool expected)
         //{

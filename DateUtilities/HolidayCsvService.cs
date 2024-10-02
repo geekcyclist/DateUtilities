@@ -7,7 +7,7 @@
         public static bool IsHoliday(DateOnly date)
         {
             List<Holiday> holidays = ParseCsv();
-            return holidays.Any(h => h.Date == date);
+            return holidays.Where(h => h.Date == date).Any();
         }
         
         private static List<Holiday> ParseCsv()
